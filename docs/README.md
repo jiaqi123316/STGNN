@@ -1,26 +1,14 @@
-# STGNN for COVID-19 prediction in Korea
+# STGNN 
 
 ## Introduction
-This repository contains implementation of Spatio-Temporal Graph Neural Network and other approaches for dealing with COVID-19 case forecasting in South Korea dataset.
-
+This repository contains implementation of Spatio-Temporal Graph Neural Network, LSTM and seq2seq model for dealing with the nutrition prediction.
+We used 24 location and collected the nitrate+nitrite value from 2021 to 2022. Our objective is to predict the last 73 days nutrition variance using different model and compare the model performance using RSME and MAE. 
 ## Requirements
 
 - Python 3
 - Tensorflow 2.*
 - Tensorflow GPU (recommended)
 - Pytorch
-
-## Installation
-- Clone the repository and install the package
-```
-git clone https://github.com/KienMN/STGNN-for-Covid-in-Korea.git
-cd STGNN-for-Covid-in-Korea
-pip install -e .
-```
-- Install package using `pip`
-```
-pip install git+https://github.com/KienMN/STGNN-for-Covid-in-Korea.git
-```
 
 ## Main components
 There are some components/modules in our code. Please check our documentation in each file for more details.
@@ -69,6 +57,5 @@ The process in a test file is as follow, check each file for more details.
 After finishing, predictions and metric scores will be stored as CSV file in `tests/results` folder.
 
 ## References
-1. COVID-19 in Korea datasets: https://kosis.kr/covid_eng/covid_index.do; https://www.kaggle.com/kimjihoo/coronavirusdataset.
-2. STGCN in traffic: https://github.com/FelixOpolka/STGCN-PyTorch.
-3. Seq2Seq in Neural machine translation: https://www.tensorflow.org/tutorials/text/nmt_with_attention.
+1. STGCN in traffic: https://github.com/FelixOpolka/STGCN-PyTorch.
+2. Seq2Seq in Neural machine translation: https://www.tensorflow.org/tutorials/text/nmt_with_attention.
