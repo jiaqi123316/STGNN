@@ -1,23 +1,5 @@
 {
   "split_date": "2022-01-01",
-  "provinces": [
-    "Seoul",
-    "Busan",
-    "Daegu",
-    "Incheon",
-    "Gwangju",
-    "Daejeon",
-    "Ulsan",
-    "Sejong",
-    "Gyeonggi",
-    "Gangwon",
-    "Chungbuk",
-    "Chungnam",
-    "Jeonbuk",
-    "Jeonnam",
-    "Gyeongbuk",
-    "Gyeongnam",
-    "Jeju"],
   "time_steps": 7,
   "status": "New"
 }
